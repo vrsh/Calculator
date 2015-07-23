@@ -1,5 +1,4 @@
 # Calculator
 Building a basic Calculator using HTML, CSS and JavaScript
-Calulator.html contains the basic display content.
-Calculator.css contains the styling for the calculator being built.
-Calculator.js, a JavaScript file contains the logic being used totake input, perform operations and display output on the calculator screen in the browser.
+
+Calculator.js, a JavaScript file contains the logic being used to take input(onclick event), perform operations and display output on the calculator screen in the browser. The calculator is configured to execute the basic operations only.
