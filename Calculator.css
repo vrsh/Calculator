@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+	font: bold 14px Arial, sans-serif;
+	color: white;
+	background: black;
+}
+
+html {
+	height: 100%;
+	background: black;
+	background-size: cover;
+	color: white;
+}
+
+#calculator {
+	width: 280px;
+	height: auto;
+	
+	margin: 100px auto;
+	padding: 5px 20px;
+	
+	background: black;
+	
+}
+
+.top .screen {
+	height: 70px;
+	width: 230px;
+	
+	float: left;
+	
+	padding: 0px 10px;
+	margin-bottom: 2px;
+	
+	background: #111111;
+	
+	/* Typography */
+	font-size: 25px;
+	line-height: 40px;
+	color: white;
+	text-align: right;
+	letter-spacing: 1px;
+
+	border: thin solid white;
+}
+
+.top span.clear {
+	float: right;
+}
+
+
+.keys, .top {overflow: hidden;}
+
+.top span.clear{
+	float: right;
+	position: right;
+
+	cursor: pointer;
+	width: 270px;
+	height: 20px;
+
+	background: black;
+
+	margin: 0px 7px 2px 0px;
+
+	color: white;
+	line-height: 0.5cm;
+	text-align: right;
+	font-size: 10px;
+	user-select: none;
+}
+
+.keys span {
+	float: left;
+	position: relative;
+	top: 0;
+	
+	cursor: pointer;
+	
+	width: 57px;
+	height: 57px;
+	
+	background: #222222;
+	
+	margin: 0 2px 2px 0;
+	
+	color: white;
+	line-height: 36px;
+	text-align: center;
+}
+
+.keys span.operator {
+	background: Gray;
+	margin-right: 0;
+}
+
+.keys span.eval {
+	background: #777777;
+	color: white;
+}
+
+.top span.clear {
+	background: Gray;
+	color: white;
+}
+
+.keys span:hover {
+	background: black;
+	color: white;
+}
+
+.keys span.eval:hover {
+	background: black;
+	color: white;
+}
+
+
+.top span.clear:hover {
+	background: black;
+	color: white;
+}
+
+/* Simulating "pressed" effect on active state of the keys by removing the box-shadow and moving the keys down a bit */
+.keys span:active {
+	border: thin solid white;
+}
+
+.keys span.eval:active {
+	border: thin solid white;
+}
+
+.top span.clear:active {
+	border: thin solid white;
+}
